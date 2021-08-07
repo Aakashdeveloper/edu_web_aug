@@ -1,13 +1,13 @@
-HTML
+# HTML
 CSS
 Bootstrap 3,4
 Javascript
 
 variables
-concat
-string literal 
-if else
-ternary 
+> concat
+> string literal 
+> if else
+> ternary 
 function
 DOM
 Calc 
