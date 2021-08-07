@@ -1,9 +1,9 @@
 # HTML
 CSS
 Bootstrap 3,4
-Javascript
 
-variables
+# Javascript
+> variables
 > concat
 > string literal 
 > if else
