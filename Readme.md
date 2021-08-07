@@ -1,6 +1,6 @@
 # HTML
-CSS
-Bootstrap 3,4
+# CSS
+# Bootstrap 3,4
 
 # Javascript
 > variables
@@ -27,6 +27,7 @@ async await
 github 
 hoisting
 clouser
-Jquery
+
+# Jquery
 > Animation
 > ajax
