@@ -1,6 +1,13 @@
 # HTML
+* Structure
+> Block Level | Inline Element
+* Always start from the new line
+* Start in the same line
 # CSS
+* Design
+
 # Bootstrap 3,4
+* Responsive
 
 # Javascript
 > variables
@@ -31,3 +38,9 @@ clouser
 # Jquery
 > Animation
 > ajax
+
+
+# extensions
+* tabnine 
+* vscode-icons 
+* Auto Close Tags
