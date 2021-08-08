@@ -5,6 +5,43 @@
 * Start in the same line
 # CSS
 * Design
+* Inline
+    > Css inside the html tag
+* StyleTag
+    > Adding Css Tag in Head tag
+* StyleSheet
+    > Writing Css Separately
+
+> Inline > StyleTag > StyleSheet
+
+<h1></h1>
+{
+    color:red;
+    font-size:10px;
+    text-align:center;
+    margin:10;
+}
+
+inline
+{
+    color:red,
+    font-size:10px
+}
+
+StyleTag
+{
+    font-size:20px;
+    text-align:center
+}
+
+StyleSheet
+{
+    font-size:30px;
+    text-align:right;
+    color:orange;
+    margin:10
+}
+
 
 # Bootstrap 3,4
 * Responsive
