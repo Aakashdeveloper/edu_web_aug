@@ -81,3 +81,8 @@ clouser
 * tabnine 
 * vscode-icons 
 * Auto Close Tags
+
+
+# Git Command
+* git clone https://github.com/Aakashdeveloper/edu_web_aug
+* git pull
