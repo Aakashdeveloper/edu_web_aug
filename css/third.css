@@ -1,0 +1,44 @@
+h1{
+    color:rgb(25, 53, 53);
+    text-align:center
+}
+#subheading{
+    color:slategrey;
+}
+#subheading2{
+    color:hotpink
+}
+.content{
+    height:200px;
+    width:30%;
+    background-color:rgb(240, 204, 104);
+    display:inline-block;
+    color:white;
+    font-style:italic;
+    overflow: scroll;
+}
+.hotpink{
+    background-color:hotpink;
+    color:black;
+}
+.slateblue{
+    background-color:slateblue
+}
+#lightsalmon{
+    background-color:lightsalmon
+}
+.center{
+    text-align: center;
+}
+#main{
+    display:inline-block;
+    margin-left:2% 
+}
+#imagediv{
+    text-align: center;
+}
+
+#imagediv > img{
+    height:300px;
+    width:400px
+}

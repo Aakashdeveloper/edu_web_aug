@@ -42,6 +42,11 @@ StyleSheet
     margin:10
 }
 
+* Target Element
+> Tag Name >>h1>> Every element of tag will get the property
+> Id >>#>> to target something unique
+> className >>.>> to target something common
+
 
 # Bootstrap 3,4
 * Responsive

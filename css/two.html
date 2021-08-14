@@ -1,20 +1,67 @@
 <html>
-    <head></head>
-    <body>
-        <h1 style="color:teal;text-align:left;">Css Page</h1>
-        <h1 style="color:#A07BF6;text-align:center;">Heading2</h1>
-        <h1 style="color:rgb(15, 161, 113);text-align:right;">Heading3</h1>
+    <head>
+        <style>
+            h1{
+                color:rgb(25, 53, 53);
+                text-align:center
+            }
+            #subheading{
+                color:slategrey;
+            }
+            #subheading2{
+                color:hotpink
+            }
+            .content{
+                height:200px;
+                width:30%;
+                background-color:rgb(62, 221, 195);
+                display:inline-block;
+                color:white;
+                font-style:italic;
+                overflow: scroll;
+            }
+            .hotpink{
+                background-color:hotpink;
+                color:black;
+            }
+            .slateblue{
+                background-color:slateblue
+            }
+            #lightsalmon{
+                background-color:lightsalmon
+            }
+            .center{
+                text-align: center;
+            }
+            #main{
+                display:inline-block;
+                margin-left:2% 
+            }
+            #imagediv{
+                text-align: center;
+            }
 
-        <p style="text-align: center;">This is paragraph</p>
-        <div style="text-align: center;">
+            #imagediv > img{
+                height:300px;
+                width:400px
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Css Page</h1>
+        <h1 id="subheading">Heading2</h1>
+        <h1 id="subheading2">Heading3</h1>
+
+        <p class="center">This is paragraph</p>
+        <div class="center">
             <span>This is span tag</span>
         </div>
-        <div style="text-align: center">
-            <img src="../html/images/nightlife.png" style="height:300px;width:400px"/>
+        <div id="imagediv">
+            <img src="../html/images/nightlife.png"/>
         </div>
-
-        <div style="display:inline-block;margin-left:2%">
-            <div style="height:200px;width:30%;background-color:olive;display:inline-block;color:blue;font-style: italic;overflow: scroll;">
+        <div id="main">
+            <div class="content">
+                <h1>Div 1</h1>
                 <p>
                     Quick Food is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries 
                     Quick Food is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries 
@@ -22,21 +69,21 @@
                     
                 </p>
             </div>
-            <div style="height:200px;width:30%;background-color:lightcoral;display:inline-block;color:white;overflow: scroll;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+            <div class="content hotpink">
                 <p>
                     Quick Food is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries 
                     Quick Food is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries 
                     Quick Food is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries  
                 </p>
             </div>
-            <div style="height:200px;width:30%;background-color:darkmagenta;display:inline-block;color:black;overflow: scroll;">
+            <div class="content slateblue">
                 <p>
                     Quick Food is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries 
                     Quick Food is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries 
                     Quick Food is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries 
                 </p>
             </div>
-            <div style="height:200px;width:30%;background-color:skyblue;display:inline-block;color:black;overflow: scroll;">
+            <div class="content" id="lightsalmon">
                 <p>
                     Quick Food is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries 
                     Quick Food is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries 
