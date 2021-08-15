@@ -46,10 +46,15 @@ StyleSheet
 > Tag Name >>h1>> Every element of tag will get the property
 > Id >>#>> to target something unique
 > className >>.>> to target something common
+> https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/matrix3d()
 
 
 # Bootstrap 3,4
 * Responsive
+> xs  less than 768px
+> sm  greater than 768
+> md  greater than 992
+> lg greater than 1200
 
 # Javascript
 > variables
