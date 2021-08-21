@@ -49,12 +49,29 @@ StyleSheet
 > https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/matrix3d()
 
 
-# Bootstrap 3,4
+# Bootstrap 3
 * Responsive
 > xs  less than 768px
 > sm  greater than 768
 > md  greater than 992
 > lg greater than 1200
+
+# Bootstrap 4
+col- <576
+col-sm > 576
+col-md > 768
+col-lg > 992
+col-xl > 1200
+
+# Bootstrap 5
+col-xs <576
+col-sm > 576
+col-md > 768
+col-lg > 992
+col-xl > 1200
+col-xxl > 1400
+
+
 
 # Javascript
 > variables
