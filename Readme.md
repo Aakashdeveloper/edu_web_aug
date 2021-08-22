@@ -122,3 +122,7 @@ clouser
 * git commit -m "first commit"
 * git remote add origin https://github.com/Aakashdeveloper/testrepo.git
 * git push -u origin master
+
+* git checkout -b branchname
+* git checkout branchname
+* git pull
