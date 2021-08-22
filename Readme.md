@@ -77,11 +77,15 @@ col-xxl > 1400
 > variables
 > concat
 > string literal 
-> if else
-> ternary 
 function
 DOM
 Calc 
+github 
+//////////////////
+> if else
+> ternary 
+> String Operation
+> Math Operation
 regex 
 Form Validation
 Event
@@ -95,7 +99,6 @@ Json-server
 promise
 Geolocation
 async await
-github 
 hoisting
 clouser
 
@@ -113,3 +116,9 @@ clouser
 # Git Command
 * git clone https://github.com/Aakashdeveloper/edu_web_aug
 * git pull
+
+* git init
+* git add .
+* git commit -m "first commit"
+* git remote add origin https://github.com/Aakashdeveloper/testrepo.git
+* git push -u origin master
