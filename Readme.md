@@ -81,22 +81,23 @@ function
 DOM
 Calc 
 github 
-//////////////////
-> if else
-> ternary 
 > String Operation
 > Math Operation
+> if else
+> ternary 
+> Form Validation
+> Event
+> dark/light
+//////////////////
 regex 
-Form Validation
-Event
-dark/light
 array
-JSON
 loop
 object
+JSON
 Dynamic Html 
 Json-server
 promise
+
 Geolocation
 async await
 hoisting
