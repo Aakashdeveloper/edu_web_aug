@@ -88,16 +88,16 @@ github
 > Form Validation
 > Event
 > dark/light
+> regex 
+> array
+> loop
+> JSON
+> Dynamic Html 
+> promise
 //////////////////
-regex 
-array
-loop
-object
-JSON
-Dynamic Html 
-Json-server
-promise
 
+object
+> Json-server
 Geolocation
 async await
 hoisting

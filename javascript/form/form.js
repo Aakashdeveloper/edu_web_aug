@@ -49,3 +49,16 @@ function fillId(){
     var id = Math.floor(Math.random()*1000000)
     document.getElementById('eid').value =id
 }
+
+const validateEmail = () => {
+    var email = document.getElementById('email').value;
+    if(email.trim().length == 0 ){
+        document.getElementById('eout').innerText = "Email is Required"
+    }else{
+        if(email.match("^([a-zA-Z0-9]+)@([a-zA-Z0-9]+)\.([a-zA-Z]{2,5})$") == null){
+            document.getElementById('eout').innerText = "Email is Valid Required"
+        }else{
+            document.getElementById('eout').innerText = ""
+        }
+    }
+}

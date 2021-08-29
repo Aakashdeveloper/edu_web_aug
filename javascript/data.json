@@ -1,0 +1,20 @@
+Way to respresent the data
+
+[
+    {
+        "id":1,
+        "city":"Delhi",
+        "name":"John"
+    },
+    {
+        "id":2,
+        "city":"NewYork",
+        "name":"Amit"
+    },
+    {
+        "id":3,
+        "city":"Paris",
+        "name":"Nikita",
+        "age":25
+    }
+]
