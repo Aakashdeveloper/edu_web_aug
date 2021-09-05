@@ -1,0 +1,46 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <button onclick="geolocation()">
+            Get Location
+        </button>
+        <p id="out"></p>
+        <p id="address"></p>
+        <script>
+            var x = document.getElementById('out');
+            var y = document.getElementById('address');
+            function geolocation(){
+                if(navigator.geolocation){
+                    navigator.geolocation.getCurrentPosition(showPosition)
+                }else{
+                    x.innerText="Geo Not Supported"
+                }
+            }
+
+            async function showPosition(data){
+                console.log(data)
+                x.innerText=`Latitude is ${data.coords.latitude} & Longitude is ${data.coords.longitude}`
+                var url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${data.coords.latitude},${data.coords.longitude}&key=`;
+
+                var response = await fetch(url);
+                var data = await response.json();
+                y.innerText = data.results[0].formatted_address;
+            }
+            /*
+            function showPosition(data){
+                console.log(data)
+                x.innerText=`Latitude is ${data.coords.latitude} & Longitude is ${data.coords.longitude}`
+                var url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${data.coords.latitude},${data.coords.longitude}&key=AIzaSyCCjjQ3hJdSDrqgX6CHLoK4R6TndJAxok4`
+
+                fetch(url)
+                .then((res) => res.json())
+                .then((data) => {
+                    y.innerText = data.results[0].formatted_address
+                })
+            }
+            */
+        </script>
+    </body>
+</html>

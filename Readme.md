@@ -94,15 +94,13 @@ github
 > JSON
 > Dynamic Html 
 > promise
-//////////////////
-
 object
 > Json-server
 Geolocation
 async await
 hoisting
 clouser
-
+//////////////////
 # Jquery
 > Animation
 > ajax
@@ -127,3 +125,11 @@ clouser
 * git checkout -b branchname
 * git checkout branchname
 * git pull
+
+>>>>>>><<<<<<<<>>>>>>>>
+install NodeJs
+> https://nodejs.org/en/
+> open cmd
+> npx json-server
+
+json-server --watch data.json --port 9700

@@ -7,13 +7,13 @@ function getCity(){
     //promise and return promise
     .then((res) => res.json())
     .then((data) => {
-        for(i=0;i<data.length;i++){
+        data.map((item) => {
             var element = document.createElement("option");
-            var text = document.createTextNode(data[i].city_name);
+            var text = document.createTextNode(item.city_name);
             element.appendChild(text)
-            element.value=data[i]._id;
+            element.value=item._id;
             document.getElementById('city').appendChild(element);
-        }
+        })
     })
 }
 
@@ -34,3 +34,13 @@ function getHotels(){
         }
     })
 }
+
+/*
+for(i=0;i<data.length;i++){
+            var element = document.createElement("option");
+            var text = document.createTextNode(data[i].city_name);
+            element.appendChild(text)
+            element.value=data[i]._id;
+            document.getElementById('city').appendChild(element);
+        }
+*/
